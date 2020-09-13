@@ -44,7 +44,7 @@ namespace ReactApp.Controllers
             var weather = await _weatherClient.GetWeatherForecast("https://metaweather.com/location/api/44544");
 
             // var result = _mapper.Map<WeatherForecastModel, WeatherForecastDto>(weather);
-            //return weather; //why didnt this work, why again using the json?
+            //return weather; //why didnt this work, why again using the jon?
             return Json(weather);
         }
     }

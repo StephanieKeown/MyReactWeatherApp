@@ -3,15 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30503.244
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "NodejsWebApp1", "NodejsWebApp1\NodejsWebApp1.njsproj", "{51CF0335-143D-4827-9B1E-47C6536A9168}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReactApp", "ReactApp\ReactApp.csproj", "{7A0898CF-76C4-49FA-AC7B-4375286C022F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReactApp", "ReactApp\ReactApp.csproj", "{7A0898CF-76C4-49FA-AC7B-4375286C022F}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestClient", "RestClient\RestClient.csproj", "{0A406BA5-F501-44AE-923D-320B08CA31C5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RestClient", "RestClient\RestClient.csproj", "{0A406BA5-F501-44AE-923D-320B08CA31C5}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{5FA91A4E-DECB-4D38-AB6A-9AF5E2E2DC44}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DTO", "DTO\DTO.csproj", "{168D529A-59D7-431D-9FE7-2EA92B7AB9C3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DTO", "DTO\DTO.csproj", "{168D529A-59D7-431D-9FE7-2EA92B7AB9C3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,10 +17,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{51CF0335-143D-4827-9B1E-47C6536A9168}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{51CF0335-143D-4827-9B1E-47C6536A9168}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{51CF0335-143D-4827-9B1E-47C6536A9168}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{51CF0335-143D-4827-9B1E-47C6536A9168}.Release|Any CPU.Build.0 = Release|Any CPU
 		{7A0898CF-76C4-49FA-AC7B-4375286C022F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{7A0898CF-76C4-49FA-AC7B-4375286C022F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7A0898CF-76C4-49FA-AC7B-4375286C022F}.Release|Any CPU.ActiveCfg = Release|Any CPU
